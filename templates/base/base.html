@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <link rel="dns-prefetch" href="//g.alicdn.com"/>
+    <link rel="dns-prefetch" href="//img.alicdn.com"/>
+    <link rel="dns-prefetch" href="//gm.mmstat.com"/>
+    <link rel="dns-prefetch" href="//ald.taobao.com"/>
+    <link rel="dns-prefetch" href="//bar.tmall.com"/>
+    <link href="//img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" rel="shortcut icon" type="image/x-icon"/>
+    <link title="天猫Tmall.com" href="//g.alicdn.com/mui/global/1.2.35/file/search.xml"
+          type="application/opensearchdescription+xml" rel="search"/>
+    <meta name="spm-id" content="875.7931836/B"/>
+
+    <title>天猫tmall.com--理想生活上天猫</title>
+    <link rel="stylesheet"
+          href="//g.alicdn.com/??mui/global/3.0.31/global.css,zebra-pages/fp5/6.0.82/pc/css/index.css"/>
+    <script src="//g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/global/3.0.31/global-pc.js,mui/global/3.0.31/global.js,mui/globalmodule/3.0.83/seed.js,mui/btscfg-g/3.0.0/index.js,mui/bucket/3.0.4/index.js,mui/globalmodule/3.0.83/global-mod-pc.js,mui/globalmodule/3.0.83/global-mod.js,mui/kissy-polyfill/4.0.16/index.js,mui/babel-polyfill/6.2.4/index.js,mui/fetch/4.1.12/fetch.js,mui/fetch/4.1.12/tool.js,mui/fetch/4.1.12/jsonp.js"></script>
+    <script src="//g.alicdn.com/secdev/pointman/js/index.js" app="tmall"></script>
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="keywords" content="商城,网上购物,网购,进口食品,美容护理,母婴玩具,家用电器,手机数码,家居生活,服饰内衣,营养保健,钟表珠宝,饰品箱包,汽车生活,图书音像,礼品卡"/>
+    <meta name="description"
+          content="天猫，中国线上购物的地标网站，亚洲超大的综合性购物平台，拥有10万多品牌商家。每日发布大量国内外商品！正品网购，上天猫！天猫千万大牌正品,品类全，一站购，支付安全，退换无忧！理想生活上天猫!"/>
+
+    <meta property="og:title" content="天猫">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=" https://www.tmall.com/">
+    <meta property="og:image" content=" https://img.alicdn.com/tfs/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    {% block page_css %}
+    {% endblock %}
+    {% block page_jq %}
+    {% endblock %}
+</head>
+<body>
+<div class="container-fluid">
+    {% block page_head %}
+
+    {% endblock %}
+
+    {% block page_main %}
+
+    {% endblock %}
+    {% block page_footer %}
+
+    {% endblock %}
+
+
+</div>
+</body>
+</html>
